@@ -1,0 +1,83 @@
+
+#service-request{
+    position: absolute;
+    top:12%;
+    left: 35%;
+    overflow-x: hidden;
+}
+
+.request-form {
+    max-width: 430px;
+    height: 470px;;  
+    background-color: #f4dd8b;
+    padding: 30px;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    
+    
+}
+form{
+    margin-top: 11%;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    
+}
+
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: none;
+   
+    border-radius: 3px;
+    font-size: 19px;
+    color:#000;
+    
+   
+}
+
+button.requestbtn {
+    background-color: #e8950f;
+    color: #fff;
+    border: none;
+    padding: 10px 100px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-left: 18%;
+    border-radius: 20px;
+}
+
+button.requestbtn:hover {
+    background-color: #f3bc64;
+    color: #000;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+}
+#video-background {
+    position: fixed;
+    object-fit: cover;
+    right: 0;
+    bottom: 0;
+    
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
